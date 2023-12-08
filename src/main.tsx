@@ -1,4 +1,4 @@
 import ReactDOM from 'react-dom/client'
-import App from './App/01-useState-类型自动推导'
+import App from './App/02-useState-传递泛型参数'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(<App />)
