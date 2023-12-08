@@ -1,4 +1,4 @@
 import ReactDOM from 'react-dom/client'
-import App from './App/06-props-为事件添加类型'
+import App from './App/07-useRef-获取dom'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(<App />)
