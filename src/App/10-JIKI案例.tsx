@@ -7,6 +7,7 @@
  * 4.封装axios
  * 5.添加apis模块
  * 6.Home模块-tabs
+ * 7.Home模块-拆分tabs组件ui与业务逻辑
  */
 
 import { Button } from 'antd-mobile'
