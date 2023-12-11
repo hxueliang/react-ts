@@ -2,6 +2,7 @@
  * 10-JIKI案例
  *
  * 1.安装antd-mobile
+ * 2.初始化路由
  */
 
 import { Button } from 'antd-mobile'

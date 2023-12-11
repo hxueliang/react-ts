@@ -1,7 +1,11 @@
 import ReactDOM from 'react-dom/client'
-import App from './App/10-JIKI案例'
+import { RouterProvider } from 'react-router-dom'
+
+import router from './router'
 
 // 10-JIKI案例
 import './index.css'
 
-ReactDOM.createRoot(document.getElementById('root')!).render(<App />)
+ReactDOM.createRoot(document.getElementById('root')!).render(
+  <RouterProvider router={router}></RouterProvider>
+)
