@@ -5,6 +5,7 @@
  * 2.初始化路由
  * 3.别名配置
  * 4.封装axios
+ * 5.添加apis模块
  */
 
 import { Button } from 'antd-mobile'

@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const BASE_URL = 'http://geek.itheima.net'
+const BASE_URL = 'http://geek.itheima.net/v1_0'
 
 const httpInstance = axios.create({
   baseURL: BASE_URL,
