@@ -9,7 +9,7 @@ const Home = () => {
 
   return (
     <div className='tabContainer'>
-      <Tabs>
+      <Tabs defaultActiveKey={'0'}>
         {channels.map(({ id, name }) => (
           <Tabs.Tab title={name} key={id}>
             <div className='listContainer'>
