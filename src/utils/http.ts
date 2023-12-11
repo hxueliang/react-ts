@@ -20,7 +20,7 @@ httpInstance.interceptors.request.use(
 // 响应拦截器
 httpInstance.interceptors.response.use(
   (response) => {
-    return response.data
+    return response
   },
   (error) => {
     return Promise.reject(error)

@@ -6,6 +6,7 @@
  * 3.别名配置
  * 4.封装axios
  * 5.添加apis模块
+ * 6.Home模块-tabs
  */
 
 import { Button } from 'antd-mobile'
