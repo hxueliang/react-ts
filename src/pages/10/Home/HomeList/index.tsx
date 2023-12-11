@@ -1,4 +1,4 @@
-import { Image, List } from 'antd-mobile'
+import { Image, InfiniteScroll, List } from 'antd-mobile'
 
 import { useList } from './useList'
 
@@ -8,7 +8,7 @@ type Props = {
 
 const HomeList = (props: Props) => {
   const { channelId } = props
-  const { articlesRes } = useList(channelId)
+  const { articlesRes, hasMore, loadMore } = useList(channelId)
 
   return (
     <>
@@ -31,6 +31,7 @@ const HomeList = (props: Props) => {
           </List.Item>
         ))}
       </List>
+      <InfiniteScroll loadMore={loadMore} hasMore={hasMore} threshold={50} />
     </>
   )
 }
