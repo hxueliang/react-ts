@@ -1,8 +1,8 @@
 /* eslint-disable react-refresh/only-export-components */
 import { Suspense, lazy } from 'react'
 
-const Home = lazy(() => import('../pages/10/Home'))
-const Detail = lazy(() => import('../pages/10/Detail'))
+const Home = lazy(() => import('@/pages/10/Home'))
+const Detail = lazy(() => import('@/pages/10/Detail'))
 
 const router10 = [
   {
