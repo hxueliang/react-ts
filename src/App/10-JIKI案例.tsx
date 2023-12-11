@@ -11,6 +11,7 @@
  * 8.Home模块-list
  * 9.Home模块-list列表无限滚动
  * 10.Home模块-跳转详情页
+ * 11.Detail模块-数据渲染
  */
 
 import { Button } from 'antd-mobile'
