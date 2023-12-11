@@ -1,6 +1,7 @@
 import { Image, InfiniteScroll, List } from 'antd-mobile'
 
 import { useList } from './useList'
+import { useNavigate } from 'react-router-dom'
 
 type Props = {
   channelId: string
@@ -9,6 +10,11 @@ type Props = {
 const HomeList = (props: Props) => {
   const { channelId } = props
   const { articlesRes, hasMore, loadMore } = useList(channelId)
+  const navigate = useNavigate()
+
+  const goDetail = (id: string) => {
+    navigate(`/10/detail?id=${id}`)
+  }
 
   return (
     <>
@@ -26,6 +32,7 @@ const HomeList = (props: Props) => {
               />
             }
             description={item.pubdate}
+            onClick={() => goDetail(item.art_id)}
           >
             {item.title}
           </List.Item>
